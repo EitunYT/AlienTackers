@@ -1,0 +1,69 @@
+@media (max-width: 1000px) {
+    /* Styles for screens smaller than 768px */
+  }
+  
+  @media (min-width: 1150px) {
+    /* Styles for screens 769px and larger */
+  }
+
+body {
+    padding: 200px;
+    background: rgb(60,49,246);
+    background: linear-gradient(141deg, rgba(60,49,246,1) 0%, rgba(82,179,255,1) 37%, rgba(10,175,209,1) 100%);
+    text-align: center;
+
+}
+
+ul {
+    margin-left: -45px;
+}
+
+li {
+    border-radius: 50px;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.main {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: #fafafa;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    -webkit-box-shadow: 0px 0px 9px 8px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 0px 9px 8px rgba(0,0,0,0.37);
+    box-shadow: 0px 0px 9px 8px rgba(0,0,0,0.37);
+}
+
+.h1 {
+    font-family: 'Fjalla One';
+    text-align: center;
+}
+
+.h2 {
+    font-family: 'Fjalla One';
+    text-align: center;
+}
+
+.text {
+    color: rgb(93, 38, 245);
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Public Sans';
+    padding: 15px;
+    text-align: center;
+}
+
+.project {
+    -webkit-box-shadow: 0px 0px 9px 8px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 0px 9px 8px rgba(0,0,0,0.37);
+    box-shadow: 0px 0px 9px 8px rgba(0,0,0,0.37);
+}
+
